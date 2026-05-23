@@ -10,7 +10,7 @@ warnings.filterwarnings("ignore")
 # Page config
 st.set_page_config(page_title="Image Classifier & Object Tagger", layout="wide")
 st.title("🖼️ Image Classifier & Object Tagger")
-st.markdown("Upload an image – AI will classify the main subject and generate object labels with descriptions.")
+st.markdown("Upload an image – This program will classify the main subject and generate object labels with descriptions.")
 
 # ==========================
 # 1. Load image classification model (ConvNeXt / ViT)
