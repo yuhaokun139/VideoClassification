@@ -19,7 +19,7 @@ def load_ner():
 # ============================================================
 st.set_page_config(page_title="News Classifier & Company Extractor", layout="centered")
 st.title("📰 News Classifier & Company Extractor")
-st.markdown("Enter an English news article to see its category and mentioned companies.")
+st.markdown("Enter an news article to see its category and mentioned companies.")
 
 # Input text area
 user_input = st.text_area("News article text:", height=200)
